@@ -32,8 +32,8 @@ continue 2
 expectPORTB 0x00
 checkResult
 
-test "PINA: 0x01 => PORTB: 0x00"
-setPINA 0x01
+test "PINA: 0x04 => PORTB: 0x00"
+setPINA 0x04
 continue 2
 expectPORTC 0x00
 checkResult
@@ -56,8 +56,8 @@ continue 2
 expectPORTB 0x01
 checkResult
 
-test "PINA: 0x01 => PORTB: 0x01 cycle two"
-setPINA 0x01
+test "PINA: 0x04 => PORTB: 0x01 cycle two"
+setPINA 0x04
 continue 2
 expectPORTB 0x01
 checkResult

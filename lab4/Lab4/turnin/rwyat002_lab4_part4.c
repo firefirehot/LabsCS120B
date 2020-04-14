@@ -27,7 +27,7 @@ void Tick()
         break;
 
      case CENTER:
-	if(PINA == 0x01)
+	if(PINA == 0x04)
 		state = POUNDTRANS;
 	else if(PINA == 0x07)
 		state = LOCKTRANS;
